@@ -1,0 +1,69 @@
+.loginSingup{
+    width: 100%;
+    height: 100vh;
+    background-color: wheat;
+    padding-top: 100px;
+}
+
+.loginSingup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.loginSingup-container h2{
+    margin: 20px 0px;
+}
+
+.loginSingup-fields{
+    display:flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+
+.loginSingup-fields input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid wheat;
+    outline: none;
+    color: gray;
+    font-size: 18px;
+}
+
+.loginSingup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: red;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginSingup-login{
+    margin-top: 20px;
+    color: gray;
+    font-size: 18px;
+    font-weight:500 ;
+}
+
+.loginSingup-login span{
+    color: red;
+    font-weight: 600;
+}
+
+.loginSingup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap:20px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 500;
+}

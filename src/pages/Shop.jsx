@@ -15,7 +15,7 @@ import Footer from "../Components/Footer/Footer";
       <Offers/>
       <NewCollections/>
       <NewsLetter/>
-      <Footer/>
+      
     </div>
   )
 }

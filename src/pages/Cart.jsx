@@ -1,7 +1,10 @@
 import React from 'react'
+import CartItems from '../Components/CartItems/CartItems'
 
-export default function Cart() {
+export default function () {
   return (
-    <div>Cart</div>
+    <div>
+      <CartItems/>
+    </div>
   )
 }
