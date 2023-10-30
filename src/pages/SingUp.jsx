@@ -23,7 +23,7 @@ function SingUp() {
 
   const singUp = (e)=>{
     e.preventDefault();
-    createUserWithEmailAndPassword(auth)
+    createUserWithEmailAndPassword(auth, user.email, user.password)
     .then((userCredential) =>{
       console.log(userCredential);
     }).catch((err)=>{
