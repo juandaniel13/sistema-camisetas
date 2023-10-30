@@ -23,8 +23,8 @@ function ProductDisplay(props) {
           {/* imágenes */}✔ ✔ ✔ ✖ ✖<p>{112}</p>
         </div>
         <div className="product-display-right-prices">
-            <div className="product-display-right-price-old">${product.oldPrice}</div>
-            <div className="product-display-right-price-new">${product.newPrice}</div>
+            {/* <div className="product-display-right-price-old">${product.oldPrice}</div> */}
+            <div className="product-display-right-price-new">{`$ ${product.newPrice}.000`}</div>
 
         </div>
         <div className="product-display-right-description">

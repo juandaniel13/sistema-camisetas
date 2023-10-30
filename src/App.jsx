@@ -3,12 +3,13 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Shop from "./pages/Shop"
 import ShopCategory from "./pages/ShopCategory"
 import Product from "./pages/Product" 
-import LoginSingUp from "./pages/LoginSingUp"
 import Cart from "./pages/Cart"
 import Footer from "./Components/Footer/Footer";
-import men_banner from "./Components/assets/nav_bar_media/carro.png"
-import women_banner from "./Components/assets/nav_bar_media/carro.png"
-import kid_banner from "./Components/assets/nav_bar_media/carro.png"
+import men_banner from "./assets/img/men_banner.png"
+import women_banner from "./assets/img/women_banner2.webp"
+import kid_banner from "./assets/img/kids_banner2.jpg"
+import SingUp from "./pages/SingUp";
+import Login from "./pages/Login";
 
 
 
@@ -30,7 +31,8 @@ function App() {
             <Route path=":productId" element={<Product/>} />
           </Route>
           <Route path="/cart" element={<Cart/>} />
-          <Route path="/login" element={<LoginSingUp/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/Singup" element={<SingUp/>} />
         </Routes>
         <Footer/>
       </BrowserRouter>

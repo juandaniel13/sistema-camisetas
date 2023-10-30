@@ -37,7 +37,7 @@ function CartItems() {
       })}
       <div className="cart-items-down">
         <div className="cart-items-total">
-            <h2>Cart Totals</h2>
+            <h2>Monto total</h2>
             <div>
                 <div className="cart-items-total items">
                     <p>Subtotal</p>
@@ -45,22 +45,22 @@ function CartItems() {
                 </div>
                 <hr />
                 <div className="cart-items-total-item">
-                    <p>Shopping Free</p>
-                    <p>Free</p>
+                    <p>Descuento de compra</p>
+                    <p>Gratis</p>
                 </div>
                 <hr />
                 <div className="cart-items-total-item">
                     <h3>Total</h3>
-                    <h3>${0}</h3>
+                    <h3>${getTotalCartAmount()}</h3>
                 </div>
             </div>
-            <button>PROCED TO CHECKOUT</button>
+            <button>Realizar Pago</button>
         </div>
         <div className="cart-items-promocode">
-            <p>If you have a promo code, Enter it here</p>
+            <p>Si tienees un cupón de descuento ingresalo aquí</p>
             <div className="cart-items-prombox">
                 <input type="text" placeholder="promo code"/>
-                <button>Submit</button>
+                <button>Enviar</button>
             </div>
             
         </div>

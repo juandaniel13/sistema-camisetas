@@ -1,6 +1,6 @@
 .hero{
     height: 100vh;
-    background: linear-gradient(180deg, white,gray 60%);
+    background: linear-gradient(180deg, white,#63FFD5 60%);
     display: flex;
 }
 
@@ -43,9 +43,15 @@
     height: 70px;
     border-radius:75px;
     margin-top:30px;
-    background-color: rgb(121, 5, 5);
-    color: white;
+    background-color: white;
+    padding-top: 50px;
+    color: black;
     font-size: 22px;
+    font-weight: 500;
+}
+
+
+.hero-latest-btn div{
     font-weight: 500;
 }
 

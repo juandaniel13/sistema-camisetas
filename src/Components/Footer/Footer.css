@@ -1,4 +1,5 @@
 .footer {
+    border-top: thin solid #5AFFC3 ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +9,7 @@
 }
 
 .footer-logo {
-    display: flex;
+    
     align-items: center;
     gap: 20px;
 }
@@ -21,6 +22,7 @@
 
 .footer-links{
     display: flex;
+    flex-direction: row;
     list-style: none;
     gap:50px;
     color: black;
@@ -32,6 +34,7 @@
 }
 
 .footer-social-icons{
+    width: 50%;
     display: flex;
     gap:20px
 }
@@ -39,8 +42,11 @@
 .footer-icons-container{
     padding: 10px;
     padding-bottom: 6px;
-    background-color: antiquewhite;
-    border: 1px solid wheat;
+    background-color: white;
+    border: 1px solid white;
+}
+.footer-icons-container *{
+    margin-left: 20px;
 }
 
 .footer-copyright{
@@ -59,5 +65,5 @@
     border: none;
     border-radius: 10px;
     height: 3px;
-    background-color: antiquewhite;
+    background-color: white;
 }

@@ -38,8 +38,9 @@
     width: 233px;
     height: 69px;
     border-radius: 75px;
-    background-color: wheat;
-    color:gray;
+    border-color: cadetblue;
+    background-color: white;
+    color:black;
     font-size: 18px;
     font-weight: 500;
 

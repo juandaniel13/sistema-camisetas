@@ -12,8 +12,8 @@ import Footer from "../Components/Footer/Footer";
     <div>
       <Hero/>
       <Popular/>
-      <Offers/>
-      <NewCollections/>
+{/*       <Offers/> */}
+      {/* <NewCollections/> */}
       <NewsLetter/>
       
     </div>

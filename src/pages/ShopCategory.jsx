@@ -29,7 +29,7 @@ function ShopCategory(props) {
         })}
       </div>
       <div className="shopCategory-loadmore">
-        Exprlore More
+        Exprlorar más
       </div>
     </div>
   )
