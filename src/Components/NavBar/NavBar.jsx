@@ -10,10 +10,11 @@ const NavBar = () => {
 
     const [menu, setMenu] = useState("shop");
     const {getTotalCartItems} = useContext(ShopContext)
+  
   return (
     <div className="nav-bar">
       <div className="nav-logo">
-        <img src={logo} alt="" width={170} height={170} />
+        <Link to="/"><img src={logo} alt="" width={170} height={170} /></Link>
        {/*  <p>CAMISETAS UD</p> */}
         
       </div>

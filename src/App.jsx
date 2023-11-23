@@ -10,6 +10,10 @@ import women_banner from "./assets/img/women_banner2.webp"
 import kid_banner from "./assets/img/kids_banner2.jpg"
 import SingUp from "./pages/SingUp";
 import Login from "./pages/Login";
+import User from "./pages/User";
+import UserPurchases from "./pages/UserPurchases";
+import Admin from "./pages/Admin";
+import ManageProducts from "./pages/ManageProducts";
 
 
 
@@ -33,7 +37,11 @@ function App() {
           <Route path="/cart" element={<Cart/>} />
           <Route path="/login" element={<Login/>} />
           <Route path="/Singup" element={<SingUp/>} />
-        </Routes>
+          <Route path="/User" element={<User/>}/>
+          <Route path="/UserPurchases" element={<UserPurchases/>}/>
+          <Route path="/Admin" element={<Admin/>}/>
+          <Route path="/ManageProducts" element={<ManageProducts/>}/>
+        </Routes> 
         <Footer/>
       </BrowserRouter>
     </div>
